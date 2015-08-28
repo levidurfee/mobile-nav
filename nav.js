@@ -2,7 +2,7 @@ $(document).ready(function() {
     $('.navigation > li > a').each( function(){
         var $this = $(this);
         $newLI = $('<li>').append( $this.clone() );
-        $newLI.insertBefore(    $this.next('ul').find('.first') );
+        $newLI.insertBefore($this.next('ul').find('.first'));
     });
     
     $("ul li ul").hide();
