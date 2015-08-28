@@ -50,18 +50,21 @@ The above mentioned can be altered in the [nav.js](https://github.com/levidurfee
 
 ```js
 $(document).ready(function() {
-	$('.navigation > li > a').each( function(){
-		var $this = $(this);
-		$newLI = $('<li>').append( $this.clone() );
-		$newLI.insertBefore($this.next('ul').find('.first'));
-	});
+    $('.navigation > li > a').each( function(){
+        var $this = $(this);
+        $newLI = $('<li>').append( $this.clone() );
+        $newLI.insertBefore(    $this.next('ul').find('.first') );
+    });
     
     $("ul li ul").hide();
     
     $(".level-1").click(function(event) {
         $("ul li ul").hide();
-        $(this).children("li ul").toggle();
-        event.preventDefault();
+        $(this).children("li ul").toggle();     
+    });
+    
+    $(".level-1 > a").click(function(event) {
+        event.preventDefault(); 
     });
 });
 ```
