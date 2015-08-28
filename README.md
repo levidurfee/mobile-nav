@@ -69,4 +69,4 @@ $(document).ready(function() {
 });
 ```
 
-View the demo on [jsfiddle](http://jsfiddle.net/levidurfee/bmms2vvu/).
+View the demo on [jsfiddle](http://jsfiddle.net/levidurfee/bmms2vvu/1/).
