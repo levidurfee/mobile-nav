@@ -14,6 +14,14 @@ The above mentioned can be altered in the [nav.js](https://github.com/levidurfee
 
 ## example html
 
+### script src
+
+```html
+<script src="https://cdn.ween.io/j/nav.min.js"></script>
+```
+
+### nav block
+
 ```html
 <nav>
 	<ul class="navigation">
