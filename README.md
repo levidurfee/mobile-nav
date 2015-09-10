@@ -4,6 +4,10 @@ User friendly mobile navigation for displaying parent pages as a child.
 
 If you use a CMS that generates the navigation for you, and you need the parent page in the child ul, this will **definitely** help.
 
+## demo
+
+[click here for the demo](https://cdn.ween.io/j/demo.html).
+
 ## usage
 
 The main ul has to have a class of `navigation`.
